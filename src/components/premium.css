@@ -1,0 +1,71 @@
+
+/* LIGHT THEME ONLY — muted pale-yellow, easier on the eyes.
+   Does not change the dark theme. */
+
+html:not(.dark) body,
+html:not(.dark) #root {
+  background: #eeedcf !important;
+  color: #29372e !important;
+}
+
+html:not(.dark) main {
+  background: #eeedcf !important;
+  color: #29372e !important;
+}
+
+html:not(.dark) .premium-topbar {
+  background: #e9e8cc !important;
+  border-color: #d8d8b7 !important;
+}
+
+html:not(.dark) main .bg-white,
+html:not(.dark) main .bg-slate-50,
+html:not(.dark) main .bg-slate-100,
+html:not(.dark) main [class*="bg-white"] {
+  background-color: #f2f1d8 !important;
+  border-color: #d9d9b9 !important;
+  color: #29372e !important;
+}
+
+html:not(.dark) main [class*="border-slate-200"],
+html:not(.dark) main [class*="border-gray-200"] {
+  border-color: #d8d8b9 !important;
+}
+
+html:not(.dark) main .text-slate-900,
+html:not(.dark) main .text-slate-800 {
+  color: #29372e !important;
+}
+
+html:not(.dark) main .text-slate-700,
+html:not(.dark) main .text-slate-600,
+html:not(.dark) main .text-slate-500 {
+  color: #68715e !important;
+}
+
+/* Keep sidebar dark green and its text readable in light mode. */
+html:not(.dark) .premium-sidebar {
+  background: linear-gradient(
+    160deg,
+    #103b2d 0%,
+    #0b2c22 55%,
+    #071e18 100%
+  ) !important;
+  color: #e5fff2 !important;
+}
+
+html:not(.dark) .premium-sidebar a,
+html:not(.dark) .premium-sidebar button,
+html:not(.dark) .premium-sidebar span,
+html:not(.dark) .premium-sidebar p {
+  color: #c5e3d4;
+}
+
+html:not(.dark) .premium-sidebar .premium-nav-active {
+  background: linear-gradient(
+    110deg,
+    #059669,
+    #10b981
+  ) !important;
+  color: #ffffff !important;
+}

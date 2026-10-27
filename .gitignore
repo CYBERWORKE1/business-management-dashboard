@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+.env
+.env.*
+!.env.example
+
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+data/import/*.csv
